@@ -1,0 +1,3333 @@
+{
+  "version": "1.0.0",
+  "node_count": 132,
+  "module_counts": {
+    "foundation": 18,
+    "reading": 24,
+    "language_elements": 24,
+    "listening": 18,
+    "writing": 18,
+    "speaking": 18,
+    "integration": 12
+  },
+  "nodes": [
+    {
+      "id": "FND-001",
+      "module": "foundation",
+      "sequence": 1,
+      "title": "Prüfungsformat und Zeitplan verstehen",
+      "learner_outcome": "Lernende können „Prüfungsformat und Zeitplan verstehen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-002",
+      "module": "foundation",
+      "sequence": 2,
+      "title": "Diagnostik und persönliches Zielprofil",
+      "learner_outcome": "Lernende können „Diagnostik und persönliches Zielprofil“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-003",
+      "module": "foundation",
+      "sequence": 3,
+      "title": "Satzklammer sicher erkennen",
+      "learner_outcome": "Lernende können „Satzklammer sicher erkennen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-002"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-004",
+      "module": "foundation",
+      "sequence": 4,
+      "title": "Verbposition im Hauptsatz",
+      "learner_outcome": "Lernende können „Verbposition im Hauptsatz“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-003"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-005",
+      "module": "foundation",
+      "sequence": 5,
+      "title": "Verbposition im Nebensatz",
+      "learner_outcome": "Lernende können „Verbposition im Nebensatz“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-004"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-006",
+      "module": "foundation",
+      "sequence": 6,
+      "title": "Kasus-Signale erkennen",
+      "learner_outcome": "Lernende können „Kasus-Signale erkennen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-005"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-007",
+      "module": "foundation",
+      "sequence": 7,
+      "title": "Artikel- und Pronomenreferenz",
+      "learner_outcome": "Lernende können „Artikel- und Pronomenreferenz“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-006"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-008",
+      "module": "foundation",
+      "sequence": 8,
+      "title": "Zeitformen für Alltag und Bericht",
+      "learner_outcome": "Lernende können „Zeitformen für Alltag und Bericht“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-009",
+      "module": "foundation",
+      "sequence": 9,
+      "title": "Modalität und Höflichkeit",
+      "learner_outcome": "Lernende können „Modalität und Höflichkeit“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-008"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-010",
+      "module": "foundation",
+      "sequence": 10,
+      "title": "Konnektoren nach Funktion ordnen",
+      "learner_outcome": "Lernende können „Konnektoren nach Funktion ordnen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-009"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-011",
+      "module": "foundation",
+      "sequence": 11,
+      "title": "Wortbildung und Wortfamilien",
+      "learner_outcome": "Lernende können „Wortbildung und Wortfamilien“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-012",
+      "module": "foundation",
+      "sequence": 12,
+      "title": "Paraphrasen statt Wortgleichheit",
+      "learner_outcome": "Lernende können „Paraphrasen statt Wortgleichheit“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-011"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-013",
+      "module": "foundation",
+      "sequence": 13,
+      "title": "Negation und Einschränkungen",
+      "learner_outcome": "Lernende können „Negation und Einschränkungen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-012"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-014",
+      "module": "foundation",
+      "sequence": 14,
+      "title": "Zahlen, Daten und Zeitangaben",
+      "learner_outcome": "Lernende können „Zahlen, Daten und Zeitangaben“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-015",
+      "module": "foundation",
+      "sequence": 15,
+      "title": "Register: privat, neutral, halbformell",
+      "learner_outcome": "Lernende können „Register: privat, neutral, halbformell“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-014"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-016",
+      "module": "foundation",
+      "sequence": 16,
+      "title": "Selbstkorrektur mit Fehlercodes",
+      "learner_outcome": "Lernende können „Selbstkorrektur mit Fehlercodes“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-015"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-017",
+      "module": "foundation",
+      "sequence": 17,
+      "title": "Zeitmanagement unter Prüfungsdruck",
+      "learner_outcome": "Lernende können „Zeitmanagement unter Prüfungsdruck“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-016"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "FND-018",
+      "module": "foundation",
+      "sequence": 18,
+      "title": "Lernstrategie und Review-Routine",
+      "learner_outcome": "Lernende können „Lernstrategie und Review-Routine“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Cross-module prerequisite and diagnostic readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-017"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf FND-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-001",
+      "module": "reading",
+      "sequence": 1,
+      "title": "Leseziel vor dem Lesen setzen",
+      "learner_outcome": "Lernende können „Leseziel vor dem Lesen setzen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-002",
+        "FND-010",
+        "FND-012",
+        "FND-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-002",
+      "module": "reading",
+      "sequence": 2,
+      "title": "Textsorte und Kommunikationsziel erkennen",
+      "learner_outcome": "Lernende können „Textsorte und Kommunikationsziel erkennen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-001"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-003",
+      "module": "reading",
+      "sequence": 3,
+      "title": "Globales Thema in einem Satz erfassen",
+      "learner_outcome": "Lernende können „Globales Thema in einem Satz erfassen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-002"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-004",
+      "module": "reading",
+      "sequence": 4,
+      "title": "Schlüsselwörter ohne Übersetzung markieren",
+      "learner_outcome": "Lernende können „Schlüsselwörter ohne Übersetzung markieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-003"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-005",
+      "module": "reading",
+      "sequence": 5,
+      "title": "Überschriften nach Kernaussage zuordnen",
+      "learner_outcome": "Lernende können „Überschriften nach Kernaussage zuordnen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-004"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-006",
+      "module": "reading",
+      "sequence": 6,
+      "title": "Teil 1: überzählige Optionen ausschließen",
+      "learner_outcome": "Lernende können „Teil 1: überzählige Optionen ausschließen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-005"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-007",
+      "module": "reading",
+      "sequence": 7,
+      "title": "Teil 1: fünf Texte unter Zeitdruck",
+      "learner_outcome": "Lernende können „Teil 1: fünf Texte unter Zeitdruck“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-006"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-008",
+      "module": "reading",
+      "sequence": 8,
+      "title": "Detailfragen in Suchaufträge umwandeln",
+      "learner_outcome": "Lernende können „Detailfragen in Suchaufträge umwandeln“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-009",
+      "module": "reading",
+      "sequence": 9,
+      "title": "Belegstellen präzise lokalisieren",
+      "learner_outcome": "Lernende können „Belegstellen präzise lokalisieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-008"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-010",
+      "module": "reading",
+      "sequence": 10,
+      "title": "Synonyme und Umschreibungen verbinden",
+      "learner_outcome": "Lernende können „Synonyme und Umschreibungen verbinden“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-009"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-011",
+      "module": "reading",
+      "sequence": 11,
+      "title": "Kontrastmarker korrekt deuten",
+      "learner_outcome": "Lernende können „Kontrastmarker korrekt deuten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-012",
+      "module": "reading",
+      "sequence": 12,
+      "title": "Negation und doppelte Negation prüfen",
+      "learner_outcome": "Lernende können „Negation und doppelte Negation prüfen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-011",
+        "RDG-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-013",
+      "module": "reading",
+      "sequence": 13,
+      "title": "Quantoren und Einschränkungen beachten",
+      "learner_outcome": "Lernende können „Quantoren und Einschränkungen beachten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-012"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-014",
+      "module": "reading",
+      "sequence": 14,
+      "title": "Teil 2: drei Antwortoptionen vergleichen",
+      "learner_outcome": "Lernende können „Teil 2: drei Antwortoptionen vergleichen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-015",
+      "module": "reading",
+      "sequence": 15,
+      "title": "Teil 2: plausible Ablenker entlarven",
+      "learner_outcome": "Lernende können „Teil 2: plausible Ablenker entlarven“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-014"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-016",
+      "module": "reading",
+      "sequence": 16,
+      "title": "Teil 2: fünf Fragen unter Zeitdruck",
+      "learner_outcome": "Lernende können „Teil 2: fünf Fragen unter Zeitdruck“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-015"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-017",
+      "module": "reading",
+      "sequence": 17,
+      "title": "Anzeigen und Kurztexte scannen",
+      "learner_outcome": "Lernende können „Anzeigen und Kurztexte scannen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-016"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-018",
+      "module": "reading",
+      "sequence": 18,
+      "title": "Bedürfnismerkmale in Kriterien zerlegen",
+      "learner_outcome": "Lernende können „Bedürfnismerkmale in Kriterien zerlegen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-017",
+        "RDG-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-019",
+      "module": "reading",
+      "sequence": 19,
+      "title": "Teil 3: eindeutige Matches belegen",
+      "learner_outcome": "Lernende können „Teil 3: eindeutige Matches belegen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-018"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-019, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-020",
+      "module": "reading",
+      "sequence": 20,
+      "title": "Teil 3: kein passendes Angebot erkennen",
+      "learner_outcome": "Lernende können „Teil 3: kein passendes Angebot erkennen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-019"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-020, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-021",
+      "module": "reading",
+      "sequence": 21,
+      "title": "Unbekannte Wörter aus Kontext erschließen",
+      "learner_outcome": "Lernende können „Unbekannte Wörter aus Kontext erschließen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-020"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-021, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-022",
+      "module": "reading",
+      "sequence": 22,
+      "title": "Lesefluss und Rücksprung begrenzen",
+      "learner_outcome": "Lernende können „Lesefluss und Rücksprung begrenzen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-021"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-022, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-023",
+      "module": "reading",
+      "sequence": 23,
+      "title": "Gemischtes Lesetraining 20 Aufgaben",
+      "learner_outcome": "Lernende können „Gemischtes Lesetraining 20 Aufgaben“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "RDG-022"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-023, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "RDG-024",
+      "module": "reading",
+      "sequence": 24,
+      "title": "Leseverstehen-Checkpoint 75 Punkte",
+      "learner_outcome": "Lernende können „Leseverstehen-Checkpoint 75 Punkte“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Leseverstehen Teile 1–3",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "RDG-023",
+        "RDG-019"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf RDG-024, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-001",
+      "module": "language_elements",
+      "sequence": 1,
+      "title": "Lückenkontext: Satzgrenzen und Bezüge",
+      "learner_outcome": "Lernende können „Lückenkontext: Satzgrenzen und Bezüge“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-003",
+        "FND-004",
+        "FND-005",
+        "FND-006",
+        "FND-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-002",
+      "module": "language_elements",
+      "sequence": 2,
+      "title": "Konjunktionen für Ursache und Folge",
+      "learner_outcome": "Lernende können „Konjunktionen für Ursache und Folge“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-001"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-003",
+      "module": "language_elements",
+      "sequence": 3,
+      "title": "Konzessive und adversative Verknüpfung",
+      "learner_outcome": "Lernende können „Konzessive und adversative Verknüpfung“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-002"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-004",
+      "module": "language_elements",
+      "sequence": 4,
+      "title": "Temporale und konditionale Verknüpfung",
+      "learner_outcome": "Lernende können „Temporale und konditionale Verknüpfung“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-003"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-005",
+      "module": "language_elements",
+      "sequence": 5,
+      "title": "Relativpronomen nach Kasus",
+      "learner_outcome": "Lernende können „Relativpronomen nach Kasus“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-004"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-006",
+      "module": "language_elements",
+      "sequence": 6,
+      "title": "Pronomen und Pronominaladverbien",
+      "learner_outcome": "Lernende können „Pronomen und Pronominaladverbien“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-005"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-007",
+      "module": "language_elements",
+      "sequence": 7,
+      "title": "Präpositionen mit festem Kasus",
+      "learner_outcome": "Lernende können „Präpositionen mit festem Kasus“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-006"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-008",
+      "module": "language_elements",
+      "sequence": 8,
+      "title": "Wechselpräpositionen im Kontext",
+      "learner_outcome": "Lernende können „Wechselpräpositionen im Kontext“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-009",
+      "module": "language_elements",
+      "sequence": 9,
+      "title": "Verbvalenz und Ergänzungen",
+      "learner_outcome": "Lernende können „Verbvalenz und Ergänzungen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-008"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-010",
+      "module": "language_elements",
+      "sequence": 10,
+      "title": "Trennbare und untrennbare Verben",
+      "learner_outcome": "Lernende können „Trennbare und untrennbare Verben“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-009"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-011",
+      "module": "language_elements",
+      "sequence": 11,
+      "title": "Passivformen im Gebrauch",
+      "learner_outcome": "Lernende können „Passivformen im Gebrauch“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-012",
+      "module": "language_elements",
+      "sequence": 12,
+      "title": "Konjunktiv II für Irrealität und Höflichkeit",
+      "learner_outcome": "Lernende können „Konjunktiv II für Irrealität und Höflichkeit“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-011",
+        "LNG-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-013",
+      "module": "language_elements",
+      "sequence": 13,
+      "title": "Infinitiv mit zu und Ersatzkonstruktionen",
+      "learner_outcome": "Lernende können „Infinitiv mit zu und Ersatzkonstruktionen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-012"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-014",
+      "module": "language_elements",
+      "sequence": 14,
+      "title": "Adjektivdeklination mit Signalen",
+      "learner_outcome": "Lernende können „Adjektivdeklination mit Signalen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-015",
+      "module": "language_elements",
+      "sequence": 15,
+      "title": "N-Deklination und Nominalgruppen",
+      "learner_outcome": "Lernende können „N-Deklination und Nominalgruppen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-014"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-016",
+      "module": "language_elements",
+      "sequence": 16,
+      "title": "Teil 1: Grammatik-Cloze 10 Lücken",
+      "learner_outcome": "Lernende können „Teil 1: Grammatik-Cloze 10 Lücken“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-015"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-017",
+      "module": "language_elements",
+      "sequence": 17,
+      "title": "Verb-Nomen-Verbindungen",
+      "learner_outcome": "Lernende können „Verb-Nomen-Verbindungen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-016"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-018",
+      "module": "language_elements",
+      "sequence": 18,
+      "title": "Adjektiv-Präposition-Verbindungen",
+      "learner_outcome": "Lernende können „Adjektiv-Präposition-Verbindungen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-017",
+        "LNG-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-019",
+      "module": "language_elements",
+      "sequence": 19,
+      "title": "Nomen-Präposition-Verbindungen",
+      "learner_outcome": "Lernende können „Nomen-Präposition-Verbindungen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-018"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-019, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-020",
+      "module": "language_elements",
+      "sequence": 20,
+      "title": "Kollokationen im Sachtext",
+      "learner_outcome": "Lernende können „Kollokationen im Sachtext“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-019"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-020, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-021",
+      "module": "language_elements",
+      "sequence": 21,
+      "title": "Register und idiomatische Auswahl",
+      "learner_outcome": "Lernende können „Register und idiomatische Auswahl“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-020"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-021, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-022",
+      "module": "language_elements",
+      "sequence": 22,
+      "title": "Teil 2: Wortkasten strategisch reduzieren",
+      "learner_outcome": "Lernende können „Teil 2: Wortkasten strategisch reduzieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LNG-021"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-022, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-023",
+      "module": "language_elements",
+      "sequence": 23,
+      "title": "Gemischte Sprachbausteine 20 Lücken",
+      "learner_outcome": "Lernende können „Gemischte Sprachbausteine 20 Lücken“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "LNG-022"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-023, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LNG-024",
+      "module": "language_elements",
+      "sequence": 24,
+      "title": "Sprachbausteine-Checkpoint 30 Punkte",
+      "learner_outcome": "Lernende können „Sprachbausteine-Checkpoint 30 Punkte“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Sprachbausteine Teile 1–2",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "LNG-023",
+        "LNG-019"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LNG-024, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-001",
+      "module": "listening",
+      "sequence": 1,
+      "title": "Aufgaben vor dem Hören prognostizieren",
+      "learner_outcome": "Lernende können „Aufgaben vor dem Hören prognostizieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-002",
+        "FND-012",
+        "FND-013",
+        "FND-014"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-002",
+      "module": "listening",
+      "sequence": 2,
+      "title": "Einmaliges Hören strategisch akzeptieren",
+      "learner_outcome": "Lernende können „Einmaliges Hören strategisch akzeptieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-001"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-003",
+      "module": "listening",
+      "sequence": 3,
+      "title": "Globalthema einer Nachricht erkennen",
+      "learner_outcome": "Lernende können „Globalthema einer Nachricht erkennen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-002"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-004",
+      "module": "listening",
+      "sequence": 4,
+      "title": "Meldungswechsel akustisch markieren",
+      "learner_outcome": "Lernende können „Meldungswechsel akustisch markieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-003"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-005",
+      "module": "listening",
+      "sequence": 5,
+      "title": "Teil 1: fünf Aussagen entscheiden",
+      "learner_outcome": "Lernende können „Teil 1: fünf Aussagen entscheiden“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-004"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-006",
+      "module": "listening",
+      "sequence": 6,
+      "title": "Interviewstruktur und Rollen verfolgen",
+      "learner_outcome": "Lernende können „Interviewstruktur und Rollen verfolgen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-005"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-007",
+      "module": "listening",
+      "sequence": 7,
+      "title": "Details mit Kurznotation sichern",
+      "learner_outcome": "Lernende können „Details mit Kurznotation sichern“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-006"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-008",
+      "module": "listening",
+      "sequence": 8,
+      "title": "Korrekturen und Selbstverbesserungen hören",
+      "learner_outcome": "Lernende können „Korrekturen und Selbstverbesserungen hören“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-009",
+      "module": "listening",
+      "sequence": 9,
+      "title": "Negation, Einschränkung und Kontrast hören",
+      "learner_outcome": "Lernende können „Negation, Einschränkung und Kontrast hören“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-008"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-010",
+      "module": "listening",
+      "sequence": 10,
+      "title": "Zahlen, Namen, Orte und Termine sichern",
+      "learner_outcome": "Lernende können „Zahlen, Namen, Orte und Termine sichern“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-009"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-011",
+      "module": "listening",
+      "sequence": 11,
+      "title": "Paraphrasen zwischen Audio und Aussage",
+      "learner_outcome": "Lernende können „Paraphrasen zwischen Audio und Aussage“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-012",
+      "module": "listening",
+      "sequence": 12,
+      "title": "Teil 2: zehn Aussagen entscheiden",
+      "learner_outcome": "Lernende können „Teil 2: zehn Aussagen entscheiden“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-011",
+        "LST-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-013",
+      "module": "listening",
+      "sequence": 13,
+      "title": "Ansagen nach Zweck klassifizieren",
+      "learner_outcome": "Lernende können „Ansagen nach Zweck klassifizieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-012"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-014",
+      "module": "listening",
+      "sequence": 14,
+      "title": "Relevante Einzelinformation extrahieren",
+      "learner_outcome": "Lernende können „Relevante Einzelinformation extrahieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-013"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-015",
+      "module": "listening",
+      "sequence": 15,
+      "title": "Teil 3: fünf Kurztexte entscheiden",
+      "learner_outcome": "Lernende können „Teil 3: fünf Kurztexte entscheiden“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-014"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-016",
+      "module": "listening",
+      "sequence": 16,
+      "title": "Nach verpasster Information weiterhören",
+      "learner_outcome": "Lernende können „Nach verpasster Information weiterhören“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "LST-015"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-017",
+      "module": "listening",
+      "sequence": 17,
+      "title": "Gemischtes Hörtraining 20 Aufgaben",
+      "learner_outcome": "Lernende können „Gemischtes Hörtraining 20 Aufgaben“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "LST-016"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "LST-018",
+      "module": "listening",
+      "sequence": 18,
+      "title": "Hörverstehen-Checkpoint 75 Punkte",
+      "learner_outcome": "Lernende können „Hörverstehen-Checkpoint 75 Punkte“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Hörverstehen Teile 1–3",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "LST-017",
+        "LST-013"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf LST-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-001",
+      "module": "writing",
+      "sequence": 1,
+      "title": "Schreibanlass und Empfänger analysieren",
+      "learner_outcome": "Lernende können „Schreibanlass und Empfänger analysieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-005",
+        "FND-009",
+        "FND-010",
+        "FND-015",
+        "FND-016"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-002",
+      "module": "writing",
+      "sequence": 2,
+      "title": "Aufgabe A oder B schnell wählen",
+      "learner_outcome": "Lernende können „Aufgabe A oder B schnell wählen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-001"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-003",
+      "module": "writing",
+      "sequence": 3,
+      "title": "Drei Inhaltspunkte strategisch auswählen",
+      "learner_outcome": "Lernende können „Drei Inhaltspunkte strategisch auswählen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-002"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-004",
+      "module": "writing",
+      "sequence": 4,
+      "title": "Eigene Zusatzidee passend entwickeln",
+      "learner_outcome": "Lernende können „Eigene Zusatzidee passend entwickeln“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-003"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-005",
+      "module": "writing",
+      "sequence": 5,
+      "title": "Halbformelle Anrede und Schlussformel",
+      "learner_outcome": "Lernende können „Halbformelle Anrede und Schlussformel“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-004"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-006",
+      "module": "writing",
+      "sequence": 6,
+      "title": "Betreff und Einstieg funktional schreiben",
+      "learner_outcome": "Lernende können „Betreff und Einstieg funktional schreiben“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-005"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-007",
+      "module": "writing",
+      "sequence": 7,
+      "title": "Situation klar und knapp erklären",
+      "learner_outcome": "Lernende können „Situation klar und knapp erklären“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-006"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-008",
+      "module": "writing",
+      "sequence": 8,
+      "title": "Informationen höflich erfragen",
+      "learner_outcome": "Lernende können „Informationen höflich erfragen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-007"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-009",
+      "module": "writing",
+      "sequence": 9,
+      "title": "Beschwerde sachlich formulieren",
+      "learner_outcome": "Lernende können „Beschwerde sachlich formulieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-008"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-010",
+      "module": "writing",
+      "sequence": 10,
+      "title": "Erwartung und gewünschte Lösung ausdrücken",
+      "learner_outcome": "Lernende können „Erwartung und gewünschte Lösung ausdrücken“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-009"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-011",
+      "module": "writing",
+      "sequence": 11,
+      "title": "Gründe und Beispiele ausbauen",
+      "learner_outcome": "Lernende können „Gründe und Beispiele ausbauen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-010"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-012",
+      "module": "writing",
+      "sequence": 12,
+      "title": "Absätze nach Funktion strukturieren",
+      "learner_outcome": "Lernende können „Absätze nach Funktion strukturieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-011",
+        "WRT-007"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-013",
+      "module": "writing",
+      "sequence": 13,
+      "title": "Kohäsion ohne Konnektoren-Ketten",
+      "learner_outcome": "Lernende können „Kohäsion ohne Konnektoren-Ketten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-012"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-014",
+      "module": "writing",
+      "sequence": 14,
+      "title": "Register konsequent halten",
+      "learner_outcome": "Lernende können „Register konsequent halten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-013"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-015",
+      "module": "writing",
+      "sequence": 15,
+      "title": "Formale Richtigkeit gezielt prüfen",
+      "learner_outcome": "Lernende können „Formale Richtigkeit gezielt prüfen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-014"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-016",
+      "module": "writing",
+      "sequence": 16,
+      "title": "Mindestens 150 Wörter sinnvoll planen",
+      "learner_outcome": "Lernende können „Mindestens 150 Wörter sinnvoll planen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-015"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-017",
+      "module": "writing",
+      "sequence": 17,
+      "title": "30-Minuten-Schreibprozess trainieren",
+      "learner_outcome": "Lernende können „30-Minuten-Schreibprozess trainieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "WRT-016"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "WRT-018",
+      "module": "writing",
+      "sequence": 18,
+      "title": "Vollständige E-Mail als Checkpoint",
+      "learner_outcome": "Lernende können „Vollständige E-Mail als Checkpoint“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Schriftlicher Ausdruck: halbformelle E-Mail",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "WRT-017",
+        "WRT-013"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf WRT-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-001",
+      "module": "speaking",
+      "sequence": 1,
+      "title": "Prüfungsablauf und Partnerformat",
+      "learner_outcome": "Lernende können „Prüfungsablauf und Partnerformat“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "FND-008",
+        "FND-009",
+        "FND-010",
+        "FND-015"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-002",
+      "module": "speaking",
+      "sequence": 2,
+      "title": "Vorbereitung: Stichpunkte statt Manuskript",
+      "learner_outcome": "Lernende können „Vorbereitung: Stichpunkte statt Manuskript“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-001"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-003",
+      "module": "speaking",
+      "sequence": 3,
+      "title": "Erfahrung in 90 Sekunden strukturieren",
+      "learner_outcome": "Lernende können „Erfahrung in 90 Sekunden strukturieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-002"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-004",
+      "module": "speaking",
+      "sequence": 4,
+      "title": "Vergangenheit und Reihenfolge klar markieren",
+      "learner_outcome": "Lernende können „Vergangenheit und Reihenfolge klar markieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-003"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-005",
+      "module": "speaking",
+      "sequence": 5,
+      "title": "Persönliche Bewertung begründen",
+      "learner_outcome": "Lernende können „Persönliche Bewertung begründen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-004"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-006",
+      "module": "speaking",
+      "sequence": 6,
+      "title": "Rückfragen stellen und beantworten",
+      "learner_outcome": "Lernende können „Rückfragen stellen und beantworten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-005"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-007",
+      "module": "speaking",
+      "sequence": 7,
+      "title": "Diskussionstext knapp zusammenfassen",
+      "learner_outcome": "Lernende können „Diskussionstext knapp zusammenfassen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-006"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-008",
+      "module": "speaking",
+      "sequence": 8,
+      "title": "Eigene Position klar eröffnen",
+      "learner_outcome": "Lernende können „Eigene Position klar eröffnen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-007"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-009",
+      "module": "speaking",
+      "sequence": 9,
+      "title": "Zustimmen, widersprechen und nuancieren",
+      "learner_outcome": "Lernende können „Zustimmen, widersprechen und nuancieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-008"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-010",
+      "module": "speaking",
+      "sequence": 10,
+      "title": "Argumente mit Beispiel und Folge entwickeln",
+      "learner_outcome": "Lernende können „Argumente mit Beispiel und Folge entwickeln“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-009"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-011",
+      "module": "speaking",
+      "sequence": 11,
+      "title": "Gesprächsbeiträge aufgreifen",
+      "learner_outcome": "Lernende können „Gesprächsbeiträge aufgreifen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-010"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-012",
+      "module": "speaking",
+      "sequence": 12,
+      "title": "Lösungen statt Monologe entwickeln",
+      "learner_outcome": "Lernende können „Lösungen statt Monologe entwickeln“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-011",
+        "SPK-007"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-013",
+      "module": "speaking",
+      "sequence": 13,
+      "title": "Planungsaufgabe in Kriterien zerlegen",
+      "learner_outcome": "Lernende können „Planungsaufgabe in Kriterien zerlegen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-012"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-013, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-014",
+      "module": "speaking",
+      "sequence": 14,
+      "title": "Vorschläge machen und Alternativen anbieten",
+      "learner_outcome": "Lernende können „Vorschläge machen und Alternativen anbieten“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-013"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-014, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-015",
+      "module": "speaking",
+      "sequence": 15,
+      "title": "Priorisieren, Kompromiss und Einigung",
+      "learner_outcome": "Lernende können „Priorisieren, Kompromiss und Einigung“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-014"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-015, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-016",
+      "module": "speaking",
+      "sequence": 16,
+      "title": "Klärungs- und Reparaturstrategien",
+      "learner_outcome": "Lernende können „Klärungs- und Reparaturstrategien“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-015"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-016, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-017",
+      "module": "speaking",
+      "sequence": 17,
+      "title": "Aussprache, Intonation und Flüssigkeit",
+      "learner_outcome": "Lernende können „Aussprache, Intonation und Flüssigkeit“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "SPK-016"
+      ],
+      "practice_types": [
+        "guided_production",
+        "micro_drill",
+        "self_check"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-017, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "SPK-018",
+      "module": "speaking",
+      "sequence": 18,
+      "title": "Vollständige mündliche Simulation",
+      "learner_outcome": "Lernende können „Vollständige mündliche Simulation“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Mündlicher Ausdruck Teile 1–3",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "SPK-017",
+        "SPK-013"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf SPK-018, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-001",
+      "module": "integration",
+      "sequence": 1,
+      "title": "Startdiagnostik über alle Module",
+      "learner_outcome": "Lernende können „Startdiagnostik über alle Module“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "RDG-024",
+        "LNG-024",
+        "LST-018",
+        "WRT-018",
+        "SPK-018"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-001, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-002",
+      "module": "integration",
+      "sequence": 2,
+      "title": "Individuellen Lernpfad erzeugen",
+      "learner_outcome": "Lernende können „Individuellen Lernpfad erzeugen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-001"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-002, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-003",
+      "module": "integration",
+      "sequence": 3,
+      "title": "Rezeptiver Mini-Mock",
+      "learner_outcome": "Lernende können „Rezeptiver Mini-Mock“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "INT-002"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-003, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-004",
+      "module": "integration",
+      "sequence": 4,
+      "title": "Produktiver Mini-Mock",
+      "learner_outcome": "Lernende können „Produktiver Mini-Mock“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "INT-003"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-004, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-005",
+      "module": "integration",
+      "sequence": 5,
+      "title": "Schriftliche Prüfung vollständig simulieren",
+      "learner_outcome": "Lernende können „Schriftliche Prüfung vollständig simulieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-004"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-005, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-006",
+      "module": "integration",
+      "sequence": 6,
+      "title": "Mündliche Prüfung vollständig simulieren",
+      "learner_outcome": "Lernende können „Mündliche Prüfung vollständig simulieren“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-005"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-006, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-007",
+      "module": "integration",
+      "sequence": 7,
+      "title": "Fehlermuster in Skill-Tags übersetzen",
+      "learner_outcome": "Lernende können „Fehlermuster in Skill-Tags übersetzen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-006"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-007, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-008",
+      "module": "integration",
+      "sequence": 8,
+      "title": "Sieben-Tage-Reparatursprint",
+      "learner_outcome": "Lernende können „Sieben-Tage-Reparatursprint“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-007"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-008, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-009",
+      "module": "integration",
+      "sequence": 9,
+      "title": "Spaced Review vor der Prüfung",
+      "learner_outcome": "Lernende können „Spaced Review vor der Prüfung“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-008"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-009, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-010",
+      "module": "integration",
+      "sequence": 10,
+      "title": "Zweiter Voll-Mock mit Vergleich",
+      "learner_outcome": "Lernende können „Zweiter Voll-Mock mit Vergleich“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "INT-009"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-010, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-011",
+      "module": "integration",
+      "sequence": 11,
+      "title": "60-Prozent-Hürden getrennt prüfen",
+      "learner_outcome": "Lernende können „60-Prozent-Hürden getrennt prüfen“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 8,
+      "prerequisites": [
+        "INT-010"
+      ],
+      "practice_types": [
+        "worked_example",
+        "deterministic_drill",
+        "retrieval_review"
+      ],
+      "mastery": {
+        "threshold": 0.8,
+        "minimum_attempts": 3,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-011, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "definition_ready",
+      "copyright": "original_content_only"
+    },
+    {
+      "id": "INT-012",
+      "module": "integration",
+      "sequence": 12,
+      "title": "Finale Prüfungsreife-Entscheidung",
+      "learner_outcome": "Lernende können „Finale Prüfungsreife-Entscheidung“ in einer neuen, original erstellten telc-B2-nahen Aufgabe selbstständig anwenden.",
+      "exam_alignment": "Module checkpoints, mock exams, repair and readiness",
+      "lesson_minutes": 25,
+      "prerequisites": [
+        "INT-011",
+        "INT-007"
+      ],
+      "practice_types": [
+        "timed_checkpoint",
+        "error_review"
+      ],
+      "mastery": {
+        "threshold": 0.7,
+        "minimum_attempts": 1,
+        "transfer_required": true
+      },
+      "remediation": "Bei Fehlern: Diagnose auf INT-012, kurze Kontrastübung, danach neuer Parallel-Item statt Wiederholung desselben Items.",
+      "content_status": "blueprint_ready",
+      "copyright": "original_content_only"
+    }
+  ]
+}

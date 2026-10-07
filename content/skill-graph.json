@@ -1,0 +1,961 @@
+{
+  "version": "1.0.0",
+  "directed": true,
+  "node_ids": [
+    "FND-001",
+    "FND-002",
+    "FND-003",
+    "FND-004",
+    "FND-005",
+    "FND-006",
+    "FND-007",
+    "FND-008",
+    "FND-009",
+    "FND-010",
+    "FND-011",
+    "FND-012",
+    "FND-013",
+    "FND-014",
+    "FND-015",
+    "FND-016",
+    "FND-017",
+    "FND-018",
+    "RDG-001",
+    "RDG-002",
+    "RDG-003",
+    "RDG-004",
+    "RDG-005",
+    "RDG-006",
+    "RDG-007",
+    "RDG-008",
+    "RDG-009",
+    "RDG-010",
+    "RDG-011",
+    "RDG-012",
+    "RDG-013",
+    "RDG-014",
+    "RDG-015",
+    "RDG-016",
+    "RDG-017",
+    "RDG-018",
+    "RDG-019",
+    "RDG-020",
+    "RDG-021",
+    "RDG-022",
+    "RDG-023",
+    "RDG-024",
+    "LNG-001",
+    "LNG-002",
+    "LNG-003",
+    "LNG-004",
+    "LNG-005",
+    "LNG-006",
+    "LNG-007",
+    "LNG-008",
+    "LNG-009",
+    "LNG-010",
+    "LNG-011",
+    "LNG-012",
+    "LNG-013",
+    "LNG-014",
+    "LNG-015",
+    "LNG-016",
+    "LNG-017",
+    "LNG-018",
+    "LNG-019",
+    "LNG-020",
+    "LNG-021",
+    "LNG-022",
+    "LNG-023",
+    "LNG-024",
+    "LST-001",
+    "LST-002",
+    "LST-003",
+    "LST-004",
+    "LST-005",
+    "LST-006",
+    "LST-007",
+    "LST-008",
+    "LST-009",
+    "LST-010",
+    "LST-011",
+    "LST-012",
+    "LST-013",
+    "LST-014",
+    "LST-015",
+    "LST-016",
+    "LST-017",
+    "LST-018",
+    "WRT-001",
+    "WRT-002",
+    "WRT-003",
+    "WRT-004",
+    "WRT-005",
+    "WRT-006",
+    "WRT-007",
+    "WRT-008",
+    "WRT-009",
+    "WRT-010",
+    "WRT-011",
+    "WRT-012",
+    "WRT-013",
+    "WRT-014",
+    "WRT-015",
+    "WRT-016",
+    "WRT-017",
+    "WRT-018",
+    "SPK-001",
+    "SPK-002",
+    "SPK-003",
+    "SPK-004",
+    "SPK-005",
+    "SPK-006",
+    "SPK-007",
+    "SPK-008",
+    "SPK-009",
+    "SPK-010",
+    "SPK-011",
+    "SPK-012",
+    "SPK-013",
+    "SPK-014",
+    "SPK-015",
+    "SPK-016",
+    "SPK-017",
+    "SPK-018",
+    "INT-001",
+    "INT-002",
+    "INT-003",
+    "INT-004",
+    "INT-005",
+    "INT-006",
+    "INT-007",
+    "INT-008",
+    "INT-009",
+    "INT-010",
+    "INT-011",
+    "INT-012"
+  ],
+  "edge_count": 164,
+  "edges": [
+    {
+      "from": "FND-002",
+      "to": "FND-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-003",
+      "to": "FND-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-004",
+      "to": "FND-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-005",
+      "to": "FND-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-006",
+      "to": "FND-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-007",
+      "to": "FND-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-008",
+      "to": "FND-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-009",
+      "to": "FND-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-010",
+      "to": "FND-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-011",
+      "to": "FND-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-012",
+      "to": "FND-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-013",
+      "to": "FND-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-014",
+      "to": "FND-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-015",
+      "to": "FND-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-016",
+      "to": "FND-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-017",
+      "to": "FND-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-002",
+      "to": "RDG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-010",
+      "to": "RDG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-012",
+      "to": "RDG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-013",
+      "to": "RDG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-001",
+      "to": "RDG-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-002",
+      "to": "RDG-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-003",
+      "to": "RDG-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-004",
+      "to": "RDG-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-005",
+      "to": "RDG-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-006",
+      "to": "RDG-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-007",
+      "to": "RDG-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-008",
+      "to": "RDG-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-009",
+      "to": "RDG-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-010",
+      "to": "RDG-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-011",
+      "to": "RDG-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-007",
+      "to": "RDG-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-012",
+      "to": "RDG-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-013",
+      "to": "RDG-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-014",
+      "to": "RDG-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-015",
+      "to": "RDG-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-016",
+      "to": "RDG-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-017",
+      "to": "RDG-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-013",
+      "to": "RDG-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-018",
+      "to": "RDG-019",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-019",
+      "to": "RDG-020",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-020",
+      "to": "RDG-021",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-021",
+      "to": "RDG-022",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-022",
+      "to": "RDG-023",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-023",
+      "to": "RDG-024",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-019",
+      "to": "RDG-024",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-003",
+      "to": "LNG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-004",
+      "to": "LNG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-005",
+      "to": "LNG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-006",
+      "to": "LNG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-010",
+      "to": "LNG-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-001",
+      "to": "LNG-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-002",
+      "to": "LNG-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-003",
+      "to": "LNG-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-004",
+      "to": "LNG-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-005",
+      "to": "LNG-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-006",
+      "to": "LNG-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-007",
+      "to": "LNG-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-008",
+      "to": "LNG-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-009",
+      "to": "LNG-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-010",
+      "to": "LNG-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-011",
+      "to": "LNG-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-007",
+      "to": "LNG-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-012",
+      "to": "LNG-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-013",
+      "to": "LNG-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-014",
+      "to": "LNG-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-015",
+      "to": "LNG-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-016",
+      "to": "LNG-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-017",
+      "to": "LNG-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-013",
+      "to": "LNG-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-018",
+      "to": "LNG-019",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-019",
+      "to": "LNG-020",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-020",
+      "to": "LNG-021",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-021",
+      "to": "LNG-022",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-022",
+      "to": "LNG-023",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-023",
+      "to": "LNG-024",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-019",
+      "to": "LNG-024",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-002",
+      "to": "LST-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-012",
+      "to": "LST-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-013",
+      "to": "LST-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-014",
+      "to": "LST-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-001",
+      "to": "LST-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-002",
+      "to": "LST-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-003",
+      "to": "LST-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-004",
+      "to": "LST-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-005",
+      "to": "LST-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-006",
+      "to": "LST-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-007",
+      "to": "LST-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-008",
+      "to": "LST-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-009",
+      "to": "LST-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-010",
+      "to": "LST-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-011",
+      "to": "LST-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-007",
+      "to": "LST-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-012",
+      "to": "LST-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-013",
+      "to": "LST-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-014",
+      "to": "LST-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-015",
+      "to": "LST-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-016",
+      "to": "LST-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-017",
+      "to": "LST-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-013",
+      "to": "LST-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-005",
+      "to": "WRT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-009",
+      "to": "WRT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-010",
+      "to": "WRT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-015",
+      "to": "WRT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-016",
+      "to": "WRT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-001",
+      "to": "WRT-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-002",
+      "to": "WRT-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-003",
+      "to": "WRT-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-004",
+      "to": "WRT-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-005",
+      "to": "WRT-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-006",
+      "to": "WRT-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-007",
+      "to": "WRT-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-008",
+      "to": "WRT-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-009",
+      "to": "WRT-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-010",
+      "to": "WRT-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-011",
+      "to": "WRT-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-007",
+      "to": "WRT-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-012",
+      "to": "WRT-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-013",
+      "to": "WRT-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-014",
+      "to": "WRT-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-015",
+      "to": "WRT-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-016",
+      "to": "WRT-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-017",
+      "to": "WRT-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-013",
+      "to": "WRT-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-008",
+      "to": "SPK-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-009",
+      "to": "SPK-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-010",
+      "to": "SPK-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "FND-015",
+      "to": "SPK-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-001",
+      "to": "SPK-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-002",
+      "to": "SPK-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-003",
+      "to": "SPK-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-004",
+      "to": "SPK-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-005",
+      "to": "SPK-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-006",
+      "to": "SPK-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-007",
+      "to": "SPK-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-008",
+      "to": "SPK-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-009",
+      "to": "SPK-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-010",
+      "to": "SPK-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-011",
+      "to": "SPK-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-007",
+      "to": "SPK-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-012",
+      "to": "SPK-013",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-013",
+      "to": "SPK-014",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-014",
+      "to": "SPK-015",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-015",
+      "to": "SPK-016",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-016",
+      "to": "SPK-017",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-017",
+      "to": "SPK-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-013",
+      "to": "SPK-018",
+      "type": "prerequisite"
+    },
+    {
+      "from": "RDG-024",
+      "to": "INT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LNG-024",
+      "to": "INT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "LST-018",
+      "to": "INT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "WRT-018",
+      "to": "INT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "SPK-018",
+      "to": "INT-001",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-001",
+      "to": "INT-002",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-002",
+      "to": "INT-003",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-003",
+      "to": "INT-004",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-004",
+      "to": "INT-005",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-005",
+      "to": "INT-006",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-006",
+      "to": "INT-007",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-007",
+      "to": "INT-008",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-008",
+      "to": "INT-009",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-009",
+      "to": "INT-010",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-010",
+      "to": "INT-011",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-011",
+      "to": "INT-012",
+      "type": "prerequisite"
+    },
+    {
+      "from": "INT-007",
+      "to": "INT-012",
+      "type": "prerequisite"
+    }
+  ]
+}
