@@ -6,9 +6,9 @@ import type { LearnerIdentity } from "@/lib/identity";
 
 export async function ensureProfile(identity: LearnerIdentity) {
   const db = getDb();
-  await db.insert(profiles).values({ userId: identity.userId, email: identity.email, displayName: identity.displayName, contentVersion: CONTENT_VERSION }).onConflictDoUpdate({
+  await db.insert(profiles).values({ userId: identity.userId, email: null, displayName: "Lernprofil", contentVersion: CONTENT_VERSION }).onConflictDoUpdate({
     target: profiles.userId,
-    set: { email: identity.email, displayName: identity.displayName, contentVersion: CONTENT_VERSION, updatedAt: sql`CURRENT_TIMESTAMP` },
+    set: { email: null, displayName: "Lernprofil", contentVersion: CONTENT_VERSION, updatedAt: sql`CURRENT_TIMESTAMP` },
   });
 }
 
@@ -25,7 +25,7 @@ export async function readProgress(identity: LearnerIdentity) {
     return { id: node.id, state: row?.state ?? "unseen", score: row?.score ?? 0, observations: row?.observations ?? 0, unlocked: node.prerequisites.length === 0 || unlocked };
   });
   const mastered = nodes.filter((node) => node.state === "mastered").length;
-  return { profile: identity, nodes, reviews: reviewRows, attemptCount: Number(attemptCount[0]?.count ?? 0), mastered, total: CURRICULUM_NODES.length };
+  return { profile: { displayName: "Lernprofil" }, nodes, reviews: reviewRows, attemptCount: Number(attemptCount[0]?.count ?? 0), mastered, total: CURRICULUM_NODES.length };
 }
 
 export async function recordAttempt(input: { identity: LearnerIdentity; clientAttemptId: string; nodeId: string; exerciseId: string; answerIndex: number; correct: boolean; errorCode: string | null }) {

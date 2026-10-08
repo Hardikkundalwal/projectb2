@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { BarChart3, CircleGauge, Compass, GraduationCap, RotateCcw, Settings2, ShieldCheck } from "lucide-react";
+import { BarChart3, CircleGauge, Compass, RotateCcw, Settings2, ShieldCheck } from "lucide-react";
 
 const nav = [
   { href: "/", label: "Lernnetz", icon: Compass },
@@ -19,7 +20,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="app-frame">
       <aside className="rail-nav">
         <Link className="brand" href="/" aria-label="Project-B2 Startseite">
-          <span className="brand-mark"><GraduationCap size={21} /></span>
+          <span className="brand-mark"><Image src="/project-b2-mark.png" alt="" width={42} height={42} priority /></span>
           <span><strong>Project-B2</strong><small>Deutschprüfung</small></span>
         </Link>
         <nav aria-label="Hauptnavigation">
@@ -31,7 +32,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <div className="independent-note"><strong>Unabhängig lernen</strong><span>Nicht mit telc gGmbH verbunden.</span></div>
       </aside>
       <div className="mobile-bar">
-        <Link className="brand" href="/"><span className="brand-mark"><GraduationCap size={19} /></span><strong>Project-B2</strong></Link>
+        <Link className="brand" href="/"><span className="brand-mark"><Image src="/project-b2-mark.png" alt="" width={36} height={36} priority /></span><strong>Project-B2</strong></Link>
         <nav aria-label="Mobile Navigation">{nav.slice(0, 5).map(({ href, label, icon: Icon }) => <Link key={href} href={href} aria-label={label}><Icon size={20} /></Link>)}</nav>
       </div>
       <main className="workspace">{children}</main>

@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #182438;
+  --ink: #122342;
   --ink-soft: #506078;
-  --paper: #f3f6f9;
+  --paper: #f3f0e8;
   --surface: #ffffff;
   --line: #315ea8;
   --blue: #315ea8;
@@ -27,7 +27,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .app-frame { min-height: 100vh; display: grid; grid-template-columns: 248px minmax(0, 1fr); }
 .rail-nav { position: fixed; inset: 0 auto 0 0; z-index: 20; width: 248px; background: var(--nav); color: #e8eef7; padding: 30px 22px 24px; display: flex; flex-direction: column; }
 .brand { display: flex; align-items: center; gap: 12px; min-height: 48px; }
-.brand-mark { width: 42px; height: 42px; border-radius: 50% 50% 50% 12px; display: grid; place-items: center; background: #f2b544; color: #14253d; }
+.brand-mark { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; background: #fff; color: #14253d; overflow: hidden; box-shadow: 0 0 0 2px rgba(255,255,255,.16); }
+.brand-mark img { width: 100%; height: 100%; object-fit: contain; }
 .brand strong { display: block; font-family: "Bahnschrift SemiCondensed", "Arial Narrow", sans-serif; font-size: 1.28rem; letter-spacing: .02em; }
 .brand small { display: block; color: #99aac1; font-size: .78rem; }
 .rail-nav nav { margin-top: 44px; display: grid; gap: 7px; }
@@ -97,6 +98,63 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .station.locked { color: #8995a5; cursor: not-allowed; }
 .station.locked .station-node { border-color: #aeb8c5; background: #edf0f4; }
 .station.due .station-node { outline: 3px solid #f2b544; outline-offset: 2px; }
+
+.quest-hero { position: relative; display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(230px, .65fr); gap: clamp(28px, 5vw, 72px); align-items: center; min-height: 390px; padding: clamp(34px, 6vw, 74px); margin: -8px 0 26px; overflow: hidden; color: #fff; background: #122342; border-radius: 30px 30px 90px 30px; box-shadow: 0 18px 50px rgba(16, 35, 68, .18); }
+.quest-hero::before { content: ""; position: absolute; width: 440px; height: 440px; right: -170px; top: -230px; border: 2px dashed rgba(255,255,255,.18); border-radius: 50%; box-shadow: 0 0 0 58px rgba(255,255,255,.025), 0 0 0 116px rgba(255,255,255,.025); }
+.quest-hero::after { content: ""; position: absolute; width: 170px; height: 90px; left: 52%; bottom: -28px; border: 4px dashed #f2b544; border-color: #f2b544 transparent transparent transparent; border-radius: 50%; transform: rotate(-8deg); }
+.quest-copy, .quest-token { position: relative; z-index: 1; }
+.quest-copy h1 { max-width: 780px; margin: 4px 0 18px; font-family: "Bahnschrift SemiCondensed", "Arial Narrow", sans-serif; font-size: clamp(3rem, 6vw, 6.2rem); line-height: .88; letter-spacing: -.045em; }
+.quest-copy > p:not(.route-kicker) { max-width: 730px; margin: 0; color: #cbd7e8; font-size: clamp(1rem, 1.5vw, 1.18rem); }
+.quest-hero .route-kicker { color: #f8c655 !important; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.quest-hero .primary-action { background: #f8c655; color: #122342; box-shadow: 0 7px 0 #c88c19; }
+.quest-hero .secondary-action { color: #fff; background: transparent; border-color: #647793; }
+.quest-token { justify-self: center; width: min(280px, 100%); display: grid; justify-items: center; padding: 22px 18px 20px; color: var(--ink); background: #fff9ec; border: 3px solid #fff; border-radius: 40% 40% 28px 28px; transform: rotate(2deg); box-shadow: 12px 14px 0 #ff695c; }
+.quest-token img { width: min(210px, 82%); height: auto; filter: drop-shadow(0 10px 12px rgba(18,35,66,.14)); }
+.quest-token span { margin-top: -6px; color: #66738a; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.quest-token strong { font-family: "Bahnschrift SemiCondensed", sans-serif; font-size: 1.22rem; }
+
+.quest-map-panel { border: 0; background: transparent; box-shadow: none; }
+.quest-map-panel .panel-title { margin-bottom: 18px; padding: 22px 24px; background: #fff; border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow); }
+.quest-map-panel .panel-title > div:first-child { align-items: flex-start; }
+.panel-title h2 + p { margin: 3px 0 0; color: var(--ink-soft); font-size: .82rem; }
+.quest-worlds { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.quest-world { position: relative; overflow: hidden; padding: 24px; background: #fff; border: 1px solid var(--border); border-top: 7px solid var(--line); border-radius: 24px; box-shadow: var(--shadow); scroll-margin-top: 90px; }
+.quest-world:nth-child(7) { grid-column: 1 / -1; }
+.quest-world::after { content: ""; position: absolute; inset: 98px 0 0; opacity: .28; pointer-events: none; background-image: radial-gradient(circle, var(--line) 1.4px, transparent 1.6px); background-size: 19px 19px; mask-image: linear-gradient(to bottom, transparent, #000 22%, #000); }
+.world-head { position: relative; z-index: 1; display: grid; grid-template-columns: 50px 1fr auto; gap: 14px; align-items: start; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+.world-number { width: 48px; height: 48px; display: grid; place-items: center; color: #fff; background: var(--line); border-radius: 14px 14px 14px 4px; font-family: "Bahnschrift SemiCondensed", sans-serif; font-size: 1.25rem; font-weight: 800; }
+.world-head span { display: block; color: var(--line); font-size: .72rem; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; }
+.world-head h3 { margin: 1px 0 1px; font-size: 1.12rem; }
+.world-head p { margin: 0; color: var(--ink-soft); font-size: .78rem; }
+.world-head > strong { padding: 5px 9px; color: var(--line); background: color-mix(in srgb, var(--line) 11%, white); border-radius: 99px; font-size: .78rem; }
+.level-trail { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(5, minmax(54px, 1fr)); gap: 18px 10px; padding: 24px 2px 8px; }
+.level-trail::before { content: ""; position: absolute; z-index: -1; inset: 50px 7% 32px; border: 4px dashed color-mix(in srgb, var(--line) 34%, white); border-radius: 44% 24% 42% 26%; transform: rotate(-2deg); }
+.level-stop { position: relative; min-width: 0; display: grid; justify-items: center; align-content: start; gap: 4px; color: var(--ink-soft); font-size: .68rem; font-weight: 800; }
+.level-stop:nth-child(5n+2), .level-stop:nth-child(5n+4) { transform: translateY(10px); }
+.level-orb { width: 46px; height: 46px; display: grid; place-items: center; color: var(--ink); background: #fff; border: 4px solid var(--line); border-radius: 50%; box-shadow: 0 4px 0 color-mix(in srgb, var(--line) 38%, #52627a); transition: transform .16s ease, box-shadow .16s ease; }
+.level-stop:hover .level-orb { transform: translateY(-3px) scale(1.08); box-shadow: 0 7px 0 color-mix(in srgb, var(--line) 38%, #52627a); }
+.level-stop.mastered .level-orb { color: #fff; background: var(--line); }
+.level-stop.practiced .level-orb { background: color-mix(in srgb, var(--line) 23%, white); }
+.level-stop.recommended-later .level-orb { border-style: dashed; opacity: .78; }
+.level-stop.due .level-orb { outline: 4px solid #f2b544; outline-offset: 2px; }
+.level-lock { position: absolute; top: -3px; left: calc(50% + 12px); padding: 2px; color: #fff; background: var(--ink); border-radius: 50%; box-sizing: content-box; }
+
+.exam-compass { padding: 70px 0 10px; scroll-margin-top: 80px; }
+.exam-compass > header { display: grid; grid-template-columns: minmax(240px, .75fr) minmax(320px, 1.25fr); column-gap: 40px; align-items: end; margin-bottom: 24px; }
+.exam-compass > header .route-kicker { grid-column: 1 / -1; }
+.exam-compass h2 { margin: 0; font-family: "Bahnschrift SemiCondensed", sans-serif; font-size: clamp(2.2rem, 4vw, 4.2rem); line-height: .95; letter-spacing: -.03em; }
+.exam-compass > header > p:last-child { margin: 0; color: var(--ink-soft); }
+.exam-card-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+.exam-card { position: relative; grid-column: span 2; min-height: 230px; display: flex; flex-direction: column; align-items: flex-start; padding: 22px; overflow: hidden; background: #fff; border: 1px solid var(--border); border-radius: 18px; box-shadow: 0 8px 22px rgba(31,50,78,.06); }
+.exam-card:nth-child(4), .exam-card:nth-child(5) { grid-column: span 3; }
+.exam-card::after { content: ""; position: absolute; width: 120px; height: 120px; right: -48px; top: -48px; background: color-mix(in srgb, var(--line) 15%, white); border-radius: 50%; }
+.exam-icon { width: 42px; height: 42px; display: grid; place-items: center; color: #fff; background: var(--line); border-radius: 12px 12px 12px 4px; }
+.exam-card > span { margin-top: 18px; color: var(--line); font-size: .75rem; font-weight: 850; text-transform: uppercase; }
+.exam-card h3 { margin: 3px 0 8px; font-size: 1.08rem; }
+.exam-card p { margin: 0 0 18px; color: var(--ink-soft); font-size: .86rem; }
+.exam-card strong { display: flex; align-items: center; gap: 6px; margin-top: auto; color: var(--line); font-size: .82rem; }
+.exam-card:hover { transform: translateY(-3px); border-color: var(--line); }
 
 .lesson-head { padding: 0 0 36px; border-bottom: 5px solid var(--line); }
 .back-link { display: inline-flex; gap: 7px; align-items: center; color: var(--ink-soft); font-weight: 700; margin-bottom: 30px; }
@@ -214,6 +272,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .status-strip { grid-template-columns: repeat(3, 1fr); }
   .status-strip .line-progress { grid-column: 1 / -1; border-top: 1px solid var(--border); }
   .transit-line { grid-template-columns: 180px minmax(0, 1fr); }
+  .quest-hero { min-height: 350px; }
+  .quest-worlds { grid-template-columns: 1fr; }
+  .quest-world:nth-child(7) { grid-column: auto; }
+  .exam-card-grid { grid-template-columns: repeat(2, 1fr); }
+  .exam-card, .exam-card:nth-child(4), .exam-card:nth-child(5) { grid-column: auto; }
+  .exam-card:last-child { grid-column: 1 / -1; }
 }
 
 @media (max-width: 680px) {
@@ -223,6 +287,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .lesson-page { width: calc(100% - 32px); padding-top: 28px; }
   .page-head { align-items: flex-start; flex-direction: column; gap: 18px; }
   .page-head h1, .lesson-head h1 { font-size: 2.65rem; }
+  .quest-hero { grid-template-columns: 1fr; min-height: auto; padding: 32px 24px 42px; border-radius: 22px 22px 60px 22px; }
+  .quest-copy h1 { font-size: 3.35rem; }
+  .quest-token { width: 220px; justify-self: start; }
+  .quest-token img { width: 150px; }
+  .hero-actions { align-items: stretch; flex-direction: column; }
   .status-strip { grid-template-columns: repeat(3, 1fr); }
   .status-strip > div { padding: 14px 10px; }
   .status-strip strong { font-size: 1.45rem; }
@@ -234,6 +303,19 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .line-label::after { display: none; }
   .stations { padding-left: 2px; }
   .station { flex-basis: 112px; }
+  .quest-map-panel .panel-title { padding: 18px; }
+  .quest-world { padding: 18px 12px; border-radius: 18px; }
+  .world-head { grid-template-columns: 44px 1fr; }
+  .world-number { width: 42px; height: 42px; }
+  .world-head > strong { grid-column: 2; justify-self: start; }
+  .level-trail { grid-template-columns: repeat(4, minmax(50px, 1fr)); gap: 17px 5px; }
+  .level-stop:nth-child(5n+2), .level-stop:nth-child(5n+4) { transform: none; }
+  .level-stop:nth-child(4n+2), .level-stop:nth-child(4n+4) { transform: translateY(9px); }
+  .level-orb { width: 43px; height: 43px; }
+  .exam-compass { padding-top: 52px; }
+  .exam-compass > header, .exam-card-grid { grid-template-columns: 1fr; }
+  .exam-compass > header { gap: 14px; }
+  .exam-card:last-child { grid-column: auto; }
   .lesson-section { grid-template-columns: 1fr; gap: 10px; }
   .example-grid, .feedback-columns, .module-progress, .review-grid, .readiness-board { grid-template-columns: 1fr; }
   .media-practice { grid-template-columns: 1fr; }
