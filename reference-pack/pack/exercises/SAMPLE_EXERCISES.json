@@ -1,0 +1,161 @@
+[
+  {
+    "id": "EX-WRT-005-001",
+    "node_id": "WRT-005",
+    "type": "multiple_choice",
+    "prompt": "Welche Kombination passt zu einer unbekannten Ansprechperson bei einem Energieanbieter?",
+    "options": [
+      "Hallo / Bis dann",
+      "Sehr geehrte Damen und Herren / Mit freundlichen Grüßen",
+      "Liebe Kolleginnen und Kollegen / Tschüss"
+    ],
+    "skill_tags": [
+      "register",
+      "opening",
+      "closing"
+    ],
+    "scoring": {
+      "mode": "exact",
+      "answer": 1,
+      "max_points": 1
+    },
+    "explanation": "Nur Option 2 ist durchgehend halbformell.",
+    "difficulty": "foundation",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  },
+  {
+    "id": "EX-LNG-002-001",
+    "node_id": "LNG-002",
+    "type": "cloze",
+    "prompt": "Wählen Sie den passenden Konnektor: Der Kurs fällt heute aus, ___ die Lehrerin krank ist.",
+    "options": [
+      "weil",
+      "obwohl",
+      "damit"
+    ],
+    "skill_tags": [
+      "causal_connector",
+      "verb_final"
+    ],
+    "scoring": {
+      "mode": "exact",
+      "answer": 0,
+      "max_points": 1
+    },
+    "explanation": "„weil“ nennt den Grund und verlangt hier Verbendstellung.",
+    "difficulty": "standard",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  },
+  {
+    "id": "EX-RDG-010-001",
+    "node_id": "RDG-010",
+    "type": "matching",
+    "prompt": "Ordnen Sie „die Gebühren werden erstattet“ der gleichbedeutenden Formulierung zu.",
+    "options": [
+      "Man erhält das gezahlte Geld zurück.",
+      "Man muss zusätzlich bezahlen.",
+      "Die Zahlung wird verschoben."
+    ],
+    "skill_tags": [
+      "paraphrase"
+    ],
+    "scoring": {
+      "mode": "exact",
+      "answer": 0,
+      "max_points": 1
+    },
+    "explanation": "„erstatten“ bedeutet, bereits gezahltes Geld zurückzugeben.",
+    "difficulty": "standard",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  },
+  {
+    "id": "EX-LST-009-001",
+    "node_id": "LST-009",
+    "type": "multiple_choice",
+    "prompt": "Im Audio heißt es: „Nicht am Freitag, sondern erst am Montag.“ Welche Aussage stimmt?",
+    "options": [
+      "Der Termin ist Freitag.",
+      "Der Termin ist Montag.",
+      "Beide Termine gelten."
+    ],
+    "skill_tags": [
+      "listening_correction",
+      "contrast"
+    ],
+    "scoring": {
+      "mode": "exact",
+      "answer": 1,
+      "max_points": 1
+    },
+    "explanation": "„sondern“ korrigiert Freitag zu Montag.",
+    "difficulty": "standard",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  },
+  {
+    "id": "EX-WRT-016-001",
+    "node_id": "WRT-016",
+    "type": "short_response",
+    "prompt": "Notieren Sie in Stichpunkten drei Inhaltspunkte für eine Anfrage an einen Weiterbildungskurs.",
+    "skill_tags": [
+      "planning",
+      "content_coverage"
+    ],
+    "scoring": {
+      "mode": "rubric",
+      "rubric_id": "RUB-WRT-PLAN",
+      "max_points": 3
+    },
+    "explanation": "Jeder Punkt muss zur Situation passen und eine andere Informationsfunktion erfüllen.",
+    "difficulty": "transfer",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  },
+  {
+    "id": "EX-SPK-015-001",
+    "node_id": "SPK-015",
+    "type": "speaking",
+    "prompt": "Einigen Sie sich mit einer Partnerperson auf Ort, Budget und Zeit für einen gemeinsamen Informationstag.",
+    "skill_tags": [
+      "planning",
+      "negotiation",
+      "agreement"
+    ],
+    "scoring": {
+      "mode": "rubric",
+      "rubric_id": "RUB-SPK-PLAN",
+      "max_points": 12
+    },
+    "explanation": "Bewertet werden Vorschläge, Reaktion auf Partnerbeiträge, Begründung und Einigung.",
+    "difficulty": "checkpoint",
+    "provenance": {
+      "original": true,
+      "author": "project editorial team",
+      "source_ids": []
+    },
+    "status": "review"
+  }
+]

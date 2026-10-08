@@ -3,12 +3,13 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { CURRICULUM_NODES, MODULES, type ModuleId } from "@/lib/curriculum";
+import { apiFetch } from "@/lib/api-client";
 
 type Progress = { nodes: { id: string; state: string; score: number; unlocked: boolean }[]; mastered: number; total: number; attemptCount: number };
 
 export function ProgressView({ mode = "progress" }: { mode?: "progress" | "review" | "readiness" }) {
   const [data, setData] = useState<Progress | null>(null);
-  useEffect(() => { fetch("/api/progress").then((res) => res.json()).then(setData).catch(() => undefined); }, []);
+  useEffect(() => { apiFetch("/api/progress").then((res) => res.json()).then((value) => setData(value as Progress)).catch(() => undefined); }, []);
   const map = useMemo(() => new Map(data?.nodes.map((node) => [node.id, node]) ?? []), [data]);
   const modules = (Object.keys(MODULES) as ModuleId[]).map((module) => {
     const nodes = CURRICULUM_NODES.filter((node) => node.module === module);

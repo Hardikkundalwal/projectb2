@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "node_id",
+    "version",
+    "language",
+    "estimated_minutes",
+    "blocks",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "language": {
+      "const": "de"
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 20
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "content"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "goal",
+              "explanation",
+              "example",
+              "contrast",
+              "practice",
+              "recap",
+              "next_action"
+            ]
+          },
+          "content": {
+            "type": "string"
+          },
+          "skill_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "released"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

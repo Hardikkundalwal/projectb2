@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "User progress projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "content_version",
+    "mastery",
+    "review_queue",
+    "readiness"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "content_version": {
+      "type": "string"
+    },
+    "mastery": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "skill_id",
+          "score",
+          "confidence",
+          "state",
+          "updated_at"
+        ],
+        "properties": {
+          "skill_id": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "state": {
+            "enum": [
+              "unseen",
+              "learning",
+              "practiced",
+              "mastered",
+              "review_due"
+            ]
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "review_queue": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "required": [
+        "written",
+        "oral",
+        "overall_ready"
+      ],
+      "properties": {
+        "written": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "oral": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "overall_ready": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Authoring template; NODE_SCHEMA.json is normative
+id: WRT-005
+module: writing
+sequence: 5
+title: Halbformelle Anrede und Schlussformel
+learner_outcome: Lernende wählen passende Formeln für Empfänger und Situation.
+exam_alignment: Schriftlicher Ausdruck
+lesson_minutes: 8
+prerequisites: [WRT-004]
+practice_types: [micro_drill, guided_production, self_check]
+mastery: {threshold: 0.8, minimum_attempts: 3, transfer_required: true}
+remediation: Contrast formal and informal formulas, then serve a new item.
+content_status: definition_ready
+copyright: original_content_only

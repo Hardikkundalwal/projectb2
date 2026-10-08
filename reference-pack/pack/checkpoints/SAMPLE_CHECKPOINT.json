@@ -1,0 +1,34 @@
+{
+  "id": "CP-VERTICAL-001",
+  "module": "mixed_vertical_slice",
+  "skills": [
+    "WRT-005",
+    "LNG-002"
+  ],
+  "duration_minutes": 12,
+  "forms": [
+    {
+      "id": "A",
+      "exercise_ids": [
+        "EX-WRT-005-001",
+        "EX-LNG-002-001"
+      ]
+    },
+    {
+      "id": "B",
+      "exercise_ids": [
+        "EX-WRT-005-002",
+        "EX-LNG-002-002"
+      ]
+    }
+  ],
+  "pass_threshold": 0.8,
+  "repair_on_fail": true,
+  "original_content_only": true,
+  "blueprint": {
+    "register": 1,
+    "causal_connector": 1,
+    "transfer_task": 1
+  },
+  "note": "Form B must be authored and reviewed before release."
+}

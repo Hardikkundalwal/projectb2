@@ -1,0 +1,6 @@
+exam_component,module,node_range,official_max_points,weight,terminal_evidence
+Leseverstehen,reading,RDG-001..RDG-024,75,25%,RDG-024
+Sprachbausteine,language_elements,LNG-001..LNG-024,30,10%,LNG-024
+Hörverstehen,listening,LST-001..LST-018,75,25%,LST-018
+Schriftlicher Ausdruck,writing,WRT-001..WRT-018,45,15%,WRT-018
+Mündlicher Ausdruck,speaking,SPK-001..SPK-018,75,25%,SPK-018

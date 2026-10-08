@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import { Check, CircleStop, Headphones, Languages, Mic, RotateCcw, Sparkles, Volume2, X } from "lucide-react";
 import { MODULES, type CurriculumNode } from "@/lib/curriculum";
+import { apiFetch } from "@/lib/api-client";
 
 type ClientExercise = { id: string; prompt: string; options: string[]; explanation: string; errorCode: string };
 type ClientLesson = {
@@ -35,8 +36,8 @@ export function LessonPlayer({ lesson, nextNodeId }: { lesson: ClientLesson; nex
     if (answerIndex === undefined) return;
     setSaving(exercise.id);
     try {
-      const response = await fetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ clientAttemptId: crypto.randomUUID(), nodeId: lesson.node.id, exerciseId: exercise.id, answerIndex }) });
-      const data = await response.json();
+      const response = await apiFetch("/api/attempts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ clientAttemptId: crypto.randomUUID(), nodeId: lesson.node.id, exerciseId: exercise.id, answerIndex }) });
+      const data = await response.json() as Result & { error?: string };
       if (!response.ok) throw new Error(data.error);
       setResults((current) => ({ ...current, [exercise.id]: data }));
     } catch (error) {
@@ -64,8 +65,8 @@ export function LessonPlayer({ lesson, nextNodeId }: { lesson: ClientLesson; nex
   async function requestWritingFeedback(useAi: boolean) {
     setFeedbackLoading(true); setFeedback(null);
     try {
-      const response = await fetch("/api/writing-feedback", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: draft, task: lesson.writingPrompt, nodeId: lesson.node.id, useAi }) });
-      const data = await response.json(); if (!response.ok) throw new Error(data.error); setFeedback(data);
+      const response = await apiFetch("/api/writing-feedback", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: draft, task: lesson.writingPrompt, nodeId: lesson.node.id, useAi }) });
+      const data = await response.json() as WritingFeedback; if (!response.ok) throw new Error("error" in data ? data.error : "Feedback nicht verfügbar."); setFeedback(data);
     } catch (error) { setFeedback({ error: error instanceof Error ? error.message : "Feedback nicht verfügbar." }); }
     finally { setFeedbackLoading(false); }
   }
@@ -103,7 +104,7 @@ export function LessonPlayer({ lesson, nextNodeId }: { lesson: ClientLesson; nex
 }
 
 function FeedbackPanel({ feedback }: { feedback: WritingFeedback }) {
-  if (feedback.error) return <div className="notice error">{feedback.error}</div>;
+  if ("error" in feedback) return <div className="notice error">{feedback.error}</div>;
   const labels: Record<string, string> = { taskFulfilment: "Aufgabe", organisation: "Struktur", vocabulary: "Wortschatz", grammar: "Grammatik", register: "Register" };
   return <div className="feedback-panel"><div className="feedback-title"><strong>{feedback.mode === "ai" ? "KI-Feedback" : "Lokale Rubrikprüfung"}</strong><span>Übungseinschätzung</span></div><p>{feedback.summary}</p><div className="rubric-bars">{Object.entries(feedback.scores).map(([key, value]) => <div key={key}><span>{labels[key] ?? key}</span><div><i style={{ width: `${Number(value) * 20}%` }} /></div><strong>{String(value)}/5</strong></div>)}</div><div className="feedback-columns"><div><h3>Stärken</h3><ul>{feedback.strengths.map((item) => <li key={item}>{item}</li>)}</ul></div><div><h3>Nächste Schritte</h3><ul>{feedback.nextSteps.map((item) => <li key={item}>{item}</li>)}</ul></div></div>{feedback.corrections.length > 0 && <div><h3>Korrekturen</h3>{feedback.corrections.map((item) => <p key={item.original}><s>{item.original}</s> · <strong>{item.suggestion}</strong> · {item.reason}</p>)}</div>}</div>;
 }

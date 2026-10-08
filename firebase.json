@@ -1,0 +1,25 @@
+{
+  "apphosting": {
+    "backendId": "project-b2",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      ".next",
+      ".openai",
+      ".sites-runtime",
+      "dist",
+      "deployment",
+      "reference-pack",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "eur3",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

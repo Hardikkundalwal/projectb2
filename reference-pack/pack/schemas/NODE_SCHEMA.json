@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/node.schema.json",
+  "title": "Curriculum node",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "module",
+    "sequence",
+    "title",
+    "learner_outcome",
+    "exam_alignment",
+    "lesson_minutes",
+    "prerequisites",
+    "practice_types",
+    "mastery",
+    "remediation",
+    "content_status",
+    "copyright"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(FND|RDG|LNG|LST|WRT|SPK|INT)-[0-9]{3}$"
+    },
+    "module": {
+      "enum": [
+        "foundation",
+        "reading",
+        "language_elements",
+        "listening",
+        "writing",
+        "speaking",
+        "integration"
+      ]
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "learner_outcome": {
+      "type": "string",
+      "minLength": 20
+    },
+    "exam_alignment": {
+      "type": "string"
+    },
+    "lesson_minutes": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 60
+    },
+    "prerequisites": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "practice_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "mastery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "threshold",
+        "minimum_attempts",
+        "transfer_required"
+      ],
+      "properties": {
+        "threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "minimum_attempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "transfer_required": {
+          "type": "boolean"
+        }
+      }
+    },
+    "remediation": {
+      "type": "string"
+    },
+    "content_status": {
+      "enum": [
+        "definition_ready",
+        "blueprint_ready",
+        "draft",
+        "review",
+        "released",
+        "retired"
+      ]
+    },
+    "copyright": {
+      "const": "original_content_only"
+    }
+  }
+}

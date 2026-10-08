@@ -1,9 +1,6 @@
-import { env } from "cloudflare:workers";
-import { and, eq, gte, sql } from "drizzle-orm";
-import { getDb } from "@/db";
-import { aiFeedbackRuns, profiles, rubricScores } from "@/db/schema";
 import { getLearnerIdentity } from "@/lib/identity";
 import { ensureProfile } from "@/lib/progress";
+import { countTodayFeedback, getPreferences, saveFeedback } from "@/lib/firebase-store";
 
 type Feedback = {
   mode: "deterministic" | "ai";
@@ -44,10 +41,10 @@ function deterministicFeedback(text: string): Feedback {
 }
 
 async function aiFeedback(text: string, task: string): Promise<Feedback | null> {
-  if (!env.OPENAI_API_KEY) return null;
+  if (!process.env.OPENAI_API_KEY) return null;
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
-    headers: { Authorization: `Bearer ${env.OPENAI_API_KEY}`, "Content-Type": "application/json" },
+    headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       model: "gpt-6-luna",
       store: false,
@@ -78,18 +75,12 @@ export async function POST(request: Request) {
     if (text.length < 40 || !body.nodeId) return Response.json({ error: "Schreibe zuerst mindestens 40 Zeichen." }, { status: 400 });
     const identity = await getLearnerIdentity();
     await ensureProfile(identity);
-    const db = getDb();
-    const [profile] = await db.select().from(profiles).where(eq(profiles.userId, identity.userId)).limit(1);
+    const profile = await getPreferences(identity);
     let feedback = deterministicFeedback(text);
-    if (body.useAi && profile?.aiWritingEnabled) {
-      const dayStart = new Date(); dayStart.setHours(0, 0, 0, 0);
-      const used = await db.select({ count: sql<number>`count(*)` }).from(aiFeedbackRuns).where(and(eq(aiFeedbackRuns.userId, identity.userId), gte(aiFeedbackRuns.createdAt, dayStart.toISOString()), eq(aiFeedbackRuns.status, "success")));
-      if (Number(used[0]?.count ?? 0) < 3) feedback = await aiFeedback(text, body.task ?? "B2-E-Mail") ?? feedback;
+    if (body.useAi && profile.aiWritingEnabled) {
+      if (await countTodayFeedback(identity) < 3) feedback = await aiFeedback(text, body.task ?? "B2-E-Mail") ?? feedback;
     }
-    await db.batch([
-      db.insert(rubricScores).values({ userId: identity.userId, nodeId: body.nodeId, taskFulfilment: feedback.scores.taskFulfilment, organisation: feedback.scores.organisation, vocabulary: feedback.scores.vocabulary, grammar: feedback.scores.grammar, registerScore: feedback.scores.register }),
-      db.insert(aiFeedbackRuns).values({ userId: identity.userId, nodeId: body.nodeId, model: feedback.mode === "ai" ? "gpt-6-luna" : "deterministic-v1", promptVersion: "writing-b2-v1", status: "success" }),
-    ]);
+    await saveFeedback(identity, body.nodeId, { mode: feedback.mode, scores: feedback.scores });
     return Response.json(feedback);
   } catch (error) {
     return Response.json({ error: error instanceof Error ? error.message : "Feedback ist gerade nicht verfügbar." }, { status: 500 });

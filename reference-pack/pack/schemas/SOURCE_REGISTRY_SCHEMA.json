@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "publisher",
+    "url",
+    "authority",
+    "accessed",
+    "usage",
+    "production_copy_allowed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "authority": {
+      "enum": [
+        "primary_official",
+        "secondary_official",
+        "community"
+      ]
+    },
+    "accessed": {
+      "type": "string",
+      "format": "date"
+    },
+    "usage": {
+      "type": "string"
+    },
+    "production_copy_allowed": {
+      "const": false
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

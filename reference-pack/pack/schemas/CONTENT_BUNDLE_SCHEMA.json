@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "nodes",
+    "edges",
+    "lessons",
+    "exercises",
+    "checkpoints",
+    "sources"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "NODE_SCHEMA.json"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "$ref": "LESSON_SCHEMA.json"
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "$ref": "EXERCISE_SCHEMA.json"
+      }
+    },
+    "checkpoints": {
+      "type": "array",
+      "items": {
+        "$ref": "CHECKPOINT_SCHEMA.json"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "SOURCE_REGISTRY_SCHEMA.json"
+      }
+    }
+  }
+}

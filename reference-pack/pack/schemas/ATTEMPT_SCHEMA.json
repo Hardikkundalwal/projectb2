@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Attempt event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "user_id",
+    "content_version",
+    "exercise_id",
+    "node_id",
+    "started_at",
+    "submitted_at",
+    "first_try",
+    "response",
+    "score",
+    "skill_evidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "content_version": {
+      "type": "string"
+    },
+    "exercise_id": {
+      "type": "string"
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "submitted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "first_try": {
+      "type": "boolean"
+    },
+    "response": {},
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "skill_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "skill_id",
+          "weight",
+          "correct"
+        ],
+        "properties": {
+          "skill_id": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0
+          },
+          "correct": {
+            "type": "boolean"
+          },
+          "error_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "scoring_trace": {
+      "type": "object"
+    }
+  }
+}

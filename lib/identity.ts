@@ -4,6 +4,7 @@ export type LearnerIdentity = { userId: string; email: string | null; displayNam
 
 export async function getLearnerIdentity(): Promise<LearnerIdentity> {
   const requestHeaders = await headers();
+  const browserId = requestHeaders.get("x-project-b2-learner-id")?.trim();
   const userId = requestHeaders.get("oai-authenticated-user-id");
   const email = requestHeaders.get("oai-authenticated-user-email");
   const encodedName = requestHeaders.get("oai-authenticated-user-full-name");
@@ -13,5 +14,6 @@ export async function getLearnerIdentity(): Promise<LearnerIdentity> {
     try { fullName = decodeURIComponent(encodedName); } catch { fullName = null; }
   }
   if (userId) return { userId, email, displayName: fullName ?? email ?? "Lernprofil" };
+  if (browserId && /^[a-zA-Z0-9-]{16,80}$/.test(browserId)) return { userId: `browser-${browserId}`, email: null, displayName: "Lernprofil" };
   return { userId: "local-seeded-learner", email: null, displayName: "Lokales Lernprofil" };
 }

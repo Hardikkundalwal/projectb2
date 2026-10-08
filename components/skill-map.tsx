@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 import {
   ArrowRight,
   BookOpen,
@@ -32,7 +33,7 @@ export function SkillMap() {
   const [progress, setProgress] = useState<Progress | null>(null);
   const [error, setError] = useState("");
   const [selectedModule, setSelectedModule] = useState<ModuleId | "all">("all");
-  useEffect(() => { fetch("/api/progress").then(async (res) => { const data = await res.json(); if (!res.ok) throw new Error(data.error); setProgress(data); }).catch((err) => setError(err.message)); }, []);
+  useEffect(() => { apiFetch("/api/progress").then(async (res) => { const data = await res.json() as Progress & { error?: string }; if (!res.ok) throw new Error(data.error); setProgress(data); }).catch((err) => setError(err.message)); }, []);
   const progressById = useMemo(() => new Map(progress?.nodes.map((node) => [node.id, node]) ?? []), [progress]);
   const next = CURRICULUM_NODES.find((node) => {
     const state = progressById.get(node.id);
